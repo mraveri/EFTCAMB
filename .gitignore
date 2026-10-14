@@ -1,9 +1,12 @@
+*.x
 *.mod
 *.a
 *.o
 *.so
+*.dll
 *.sm
 *~*
+*.dll
 .metadata
 .project
 .pydevproject
@@ -22,6 +25,7 @@ WinDLL/
 *.user
 *.save
 *.log
+*.out
 .idea
 .DS_Store
 *egg*
@@ -45,6 +49,8 @@ testfile*
 *.a
 *.o
 *.png
+!heftcamb_logo.png
+!eftcamb_structure_chart.png
 *.so
 *.sm
 *~
@@ -55,7 +61,7 @@ testfile*
 
 # Ignore all .dat and .ini files except those already tracked in git
 *.dat
-*.ini
+# *.ini
 *compatibility.txt
 camb_test.py
 temp_test.py
